@@ -27,8 +27,8 @@ The library is designed to use in conjunction with NetworkExtension framework an
   s.ios.vendored_frameworks = 'OpenVPNXor.framework'
   s.osx.vendored_frameworks = 'OpenVPNXor.framework'
   #s.ios.deployment_target = '12.0'
- #s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  #s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+ s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 
   
